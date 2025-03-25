@@ -120,4 +120,32 @@ body {
   .resume-btn:hover {
     background-color: #333;
   }
+  .projects-page {
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #0d0d1e;
+    color: white;
+    text-align: center;
+  }
+  
+  .projects-page h1 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .projects-page section {
+    margin-bottom: 3rem;
+  }
+  
+  .projects-page h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projects-page p {
+    font-size: 0.8rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
   

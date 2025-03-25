@@ -1,5 +1,6 @@
 // src/App.jsx
 import './style.css';
+import { Link } from 'react-router-dom';
 import profilePic from './assets/pp.webp'; 
 import bgImg from './assets/background.png';
 function App() {
