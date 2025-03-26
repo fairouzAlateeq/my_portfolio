@@ -148,4 +148,37 @@ body {
     margin: 0 auto;
     line-height: 1.6;
   }
+  .tab-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .tab-buttons button {
+    background-color: #000;
+    color: #00ff00;
+    border: 3px solid #00ff00;
+    padding: 1rem 1.5rem;
+    font-size: 0.65rem;
+    font-family: 'Press Start 2P', monospace;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ff00;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .tab-buttons button:hover {
+    background-color: #111;
+    transform: scale(1.05);
+    box-shadow: 0 0 16px #00ff00, 0 0 24px #00ff00;
+  }
+  
+  .tab-buttons button.active {
+    background-color: #a020f0;
+    color: white;
+    border-color: #ffcc00;
+    box-shadow: 0 0 16px #ffcc00, 0 0 24px #a020f0;
+  }
   
