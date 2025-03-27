@@ -52,13 +52,13 @@ function Projects() {
           <div className="cloud-project">
             <h3>AWS Infrastructure Provisioning with Terraform</h3>
             <iframe
-              src="/src/write-ups/AWS_Infrastructure_Provisioning_with_Terraform.pdf"
+              src="/src/write-ups/aws_infrastructur_provisioning_with_terraform.pdf"
               title="AWS Infrastructure"
               width="100%"
               height="400px"
               style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
             ></iframe>
-            <a href="/write-ups/aws_infrastructur_provisioning_with_terraform.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+            <a href="/src/write-ups/aws_infrastructur_provisioning_with_terraform.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
               Open in New Tab
             </a>
           </div>
@@ -72,7 +72,7 @@ function Projects() {
               height="400px"
               style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
             ></iframe>
-            <a href="/write-ups/dns_handler_lambda.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+            <a href="/src/write-ups/dns_handler_lambda.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
               Open in New Tab
             </a>
           </div>
@@ -80,13 +80,13 @@ function Projects() {
           <div className="cloud-project">
             <h3>Rehydration Lambda for Splunk</h3>
             <iframe
-              src="/src/write-ups/rehydration_lambda_for_splunk_services.pdf.pdf"
+              src="/src/write-ups/rehydration_lambda_for_splunk_services.pdf"
               title="Rehydration Lambda"
               width="100%"
               height="400px"
               style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
             ></iframe>
-            <a href="/write-ups/Rehydration?_lambda_for_splunk_services.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+            <a href="/src/write-ups/rehydration_lambda_for_splunk_services.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
               Open in New Tab
             </a>
           </div>
