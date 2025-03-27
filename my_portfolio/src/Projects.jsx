@@ -21,7 +21,6 @@ function Projects() {
       case 'frontend':
         return (
           <div>
-            <h2>Frontend Projects</h2>
             <ul>
               <li><a href="https://weatherappbyfai.netlify.app/" target="_blank" rel="noopener noreferrer">Weather App ☁️</a></li>
               <li><a href="#" target="_blank" rel="noopener noreferrer">Food Ordering App 🍔 (Coming Soon)</a></li>
@@ -32,7 +31,6 @@ function Projects() {
       case 'backend':
         return (
           <div>
-            <h2>Backend Java Projects</h2>
             <ul>
             <li><a href="https://github.com/fairouzAlateeq/CapstoneThree_EasyShop" onClick={() => setSelectedRepo('CapstoneThree_EasyShop')}>🛍 Easy Shop</a></li>
               <li><a href="https://github.com/fairouzAlateeq/Workshop8_Dealership_OOP_DB" onClick={() => setSelectedRepo('WorkshopFour_CarDealership')}>🚗 Car Dealership</a></li>
@@ -49,16 +47,54 @@ function Projects() {
         );
       case 'cloud':
         return (
-          <div>
-            <h2>Cloud & IaC</h2>
-            <a href="/write-ups/AWS_Infrastructure_Provisioning_with_Terraform.rtf" className="resume-btn"> AWS infrasturcture provisioning with TFE
-    </a>
+          
+          <div className="cloud-projects">
+          <div className="cloud-project">
+            <h3>AWS Infrastructure Provisioning with Terraform</h3>
+            <iframe
+              src="/src/write-ups/AWS_Infrastructure_Provisioning_with_Terraform.pdf"
+              title="AWS Infrastructure"
+              width="100%"
+              height="400px"
+              style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+            ></iframe>
+            <a href="/write-ups/aws_infrastructur_provisioning_with_terraform.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+              Open in New Tab
+            </a>
           </div>
-        );
+
+          <div className="cloud-project">
+            <h3>DNS Handler Lambda</h3>
+            <iframe
+              src="/src/write-ups/dns_handler_lambda.pdf"
+              title="DNS Handler Lambda"
+              width="100%"
+              height="400px"
+              style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+            ></iframe>
+            <a href="/write-ups/dns_handler_lambda.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+              Open in New Tab
+            </a>
+          </div>
+
+          <div className="cloud-project">
+            <h3>Rehydration Lambda for Splunk</h3>
+            <iframe
+              src="/src/write-ups/rehydration_lambda_for_splunk_services.pdf.pdf"
+              title="Rehydration Lambda"
+              width="100%"
+              height="400px"
+              style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+            ></iframe>
+            <a href="/write-ups/Rehydration?_lambda_for_splunk_services.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+              Open in New Tab
+            </a>
+          </div>
+        </div>
+      );
       case 'databases':
         return (
           <div>
-            <h2>Database Work</h2>
             <iframe
               src="/Fairouz-Database-Design.pdf"
               title="Database Work"
