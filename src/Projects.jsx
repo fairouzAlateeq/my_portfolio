@@ -20,7 +20,7 @@ function Projects() {
     switch (activeTab) {
       case 'frontend':
         return (
-          <div>
+          <div className="project-links">
             <ul>
               <li><a href="https://weatherappbyfai.netlify.app/" target="_blank" rel="noopener noreferrer">Weather App ☁️</a></li>
               <li><a href="#" target="_blank" rel="noopener noreferrer">Food Ordering App 🍔 (Coming Soon)</a></li>
@@ -30,7 +30,7 @@ function Projects() {
         );
       case 'backend':
         return (
-          <div>
+          <div className="project-links">
             <ul>
             <li><a href="https://github.com/fairouzAlateeq/CapstoneThree_EasyShop" onClick={() => setSelectedRepo('CapstoneThree_EasyShop')}>🛍 Easy Shop</a></li>
               <li><a href="https://github.com/fairouzAlateeq/Workshop8_Dealership_OOP_DB" onClick={() => setSelectedRepo('WorkshopFour_CarDealership')}>🚗 Car Dealership</a></li>
