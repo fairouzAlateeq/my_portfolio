@@ -242,16 +242,16 @@ body {
   .project-links ul {
     list-style-type: none;
     padding-left: 0;
-    margin-top: 2rem; /* Adds space above the list */
+    margin-top: 2rem; 
   }
   
   .project-links li {
-    margin-bottom: 1rem; /* Adds space between items */
-    font-size: 0.75rem; /* Increases font size */
+    margin-bottom: 1rem; 
+    font-size: 2rem; 
   }
   
   .project-links li a {
-    color: #cc99ff; /* Light purple */
+    color: #cc99ff; 
     text-decoration: none;
     transition: color 0.2s ease;
   }
