@@ -46,51 +46,93 @@ function Projects() {
           </div>
         );
         case 'cloud':
-          return (
-            <div className="cloud-projects">
-              <div className="cloud-project">
-                <h3>AWS Infrastructure Provisioning with Terraform</h3>
-                <iframe
-                  src="https://docs.google.com/document/d/1u2-mjxqZbY5kSn4s3B8O4mgOLadJZ1em/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true"
-                  title="AWS Infrastructure"
-                  width="100%"
-                  height="400px"
-                  style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
-                ></iframe>
-                <a href="https://docs.google.com/document/d/1u2-mjxqZbY5kSn4s3B8O4mgOLadJZ1em/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
-                  Open in New Tab
-                </a>
-              </div>
-        
-              <div className="cloud-project">
-                <h3>DNS Handler Lambda</h3>
-                <iframe
-                  src="https://docs.google.com/document/d/1rcIm6IskAHRxmmtLlX2ov2iGnoF0A4TT/edit?usp=sharing&ouid=112000094602340845079&rtpof=true&sd=true"
-                  title="DNS Handler Lambda"
-                  width="100%"
-                  height="400px"
-                  style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
-                ></iframe>
-                <a href="https://docs.google.com/document/d/1rcIm6IskAHRxmmtLlX2ov2iGnoF0A4TT/edit?usp=sharing&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
-                  Open in New Tab
-                </a>
-              </div>
-        
-              <div className="cloud-project">
-                <h3>Rehydration Lambda for Splunk</h3>
-                <iframe
-                  src="https://docs.google.com/document/d/1ylflVUBLHyAiWICFbXjt5XwB2lw1oPGU/edit?usp=sharing&ouid=112000094602340845079&rtpof=true&sd=true"
-                  title="Rehydration Lambda"
-                  width="100%"
-                  height="400px"
-                  style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
-                ></iframe>
-                <a href="https://docs.google.com/document/d/1ylflVUBLHyAiWICFbXjt5XwB2lw1oPGU/edit?usp=sharing&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
-                  Open in New Tab
-                </a>
-              </div>
-            </div>
-          );        
+  return (
+    <div className="cloud-projects">
+      <div className="cloud-project">
+        <h3>AWS Infrastructure Provisioning with Terraform</h3>
+        <iframe
+          src="https://docs.google.com/document/d/1u2-mjxqZbY5kSn4s3B8O4mgOLadJZ1em/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true"
+          title="AWS Infrastructure"
+          width="100%"
+          height="400px"
+          style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+        ></iframe>
+        <a href="https://docs.google.com/document/d/1u2-mjxqZbY5kSn4s3B8O4mgOLadJZ1em/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          Open in New Tab
+        </a>
+      </div>
+
+      <div className="cloud-project">
+        <h3>DNS Handler Lambda</h3>
+        <iframe
+          src="https://docs.google.com/document/d/1rcIm6IskAHRxmmtLlX2ov2iGnoF0A4TT/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true"
+          title="DNS Handler Lambda"
+          width="100%"
+          height="400px"
+          style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+        ></iframe>
+        <a href="https://docs.google.com/document/d/1rcIm6IskAHRxmmtLlX2ov2iGnoF0A4TT/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          Open in New Tab
+        </a>
+      </div>
+
+      <div className="cloud-project">
+        <h3>Rehydration Lambda for Splunk</h3>
+        <iframe
+          src="https://docs.google.com/document/d/1ylflVUBLHyAiWICFbXjt5XwB2lw1oPGU/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true"
+          title="Rehydration Lambda"
+          width="100%"
+          height="400px"
+          style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+        ></iframe>
+        <a href="https://docs.google.com/document/d/1ylflVUBLHyAiWICFbXjt5XwB2lw1oPGU/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          Open in New Tab
+        </a>
+      </div>
+
+      <div className="cloud-project">
+        <h3>Rotate Secrets Lambda</h3>
+        <iframe
+          src="https://docs.google.com/document/d/1TFDdg1WdmCHv6G7cK7I642KvMLO9lqhi/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true"
+          title="Rotate Secrets Lambda"
+          width="100%"
+          height="400px"
+          style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+        ></iframe>
+        <a href="https://docs.google.com/document/d/1TFDdg1WdmCHv6G7cK7I642KvMLO9lqhi/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          Open in New Tab
+        </a>
+      </div>
+
+      <div className="cloud-project">
+        <h3>Secrets Manager Lambda</h3>
+        <iframe
+          src="https://docs.google.com/document/d/1UvZmxkO9SqeIKo5Lu8h7F4IwTq4nPYmN/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true"
+          title="Secrets Manager Lambda"
+          width="100%"
+          height="400px"
+          style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+        ></iframe>
+        <a href="https://docs.google.com/document/d/1UvZmxkO9SqeIKo5Lu8h7F4IwTq4nPYmN/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          Open in New Tab
+        </a>
+      </div>
+
+      <div className="cloud-project">
+        <h3>CodeDeploy Deployment Groups</h3>
+        <iframe
+          src="https://docs.google.com/document/d/1_0uJw6XAv-eKZKmhj0qe18EklHfxKK9o/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true"
+          title="CodeDeploy"
+          width="100%"
+          height="400px"
+          style={{ border: '2px dashed #fff', marginBottom: '1rem' }}
+        ></iframe>
+        <a href="https://docs.google.com/document/d/1_0uJw6XAv-eKZKmhj0qe18EklHfxKK9o/edit?usp=drive_link&ouid=112000094602340845079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          Open in New Tab
+        </a>
+      </div>
+    </div>
+  );                    
       case 'databases':
         return (
           <div>
